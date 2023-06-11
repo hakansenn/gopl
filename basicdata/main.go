@@ -1,6 +1,11 @@
 package main
 
+import "fmt"
+
 func main() {
-	var u uint8 = 255
-	println(u, u+1, u*u)
+	s := "Şen"
+	//s := "Sen"
+	for i := 0; i < len(s); i++ {
+		fmt.Println(s[i])
+	}
 }
