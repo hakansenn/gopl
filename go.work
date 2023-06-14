@@ -1,3 +1,5 @@
 go 1.20
 
 use ./dup1
+use ./p1
+use ./initdene
