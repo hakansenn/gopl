@@ -24,9 +24,9 @@ func comma(s string) string {
 	buf.WriteString(s[:i])
 
 	// The rest
-	for j := i + 3; j < n;  {
+	for j := i + 3; j < n; j += 3 {
 		buf.WriteString("," + s[i:j])
-		i, j = j, j+3
+		i +=3
 	}
 	buf.WriteString("," + s[i:])
 	return buf.String()
