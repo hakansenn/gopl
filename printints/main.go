@@ -5,7 +5,7 @@ import (
 	"fmt"
 )
 
-func intsToString(values []int) string {
+	func intsToString(values []int) string {
 	var buf bytes.Buffer
 	buf.WriteByte('[')
 	for i, v := range values {
